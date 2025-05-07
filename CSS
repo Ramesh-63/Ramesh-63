@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: url(./hd-nature-ngdfb9h966h4z3le.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 40px;
+  }
+  
+  .logo {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search-box button {
+    background: orange;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 60px;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .content span {
+    color: orange;
+  }
+  
+  .content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .content button {
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .login-box p {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .login-box a {
+    color: orange;
+  }
+  
+  .social-icons {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons i {
+    margin: 0 5px;
+    cursor: pointer;
+  }
